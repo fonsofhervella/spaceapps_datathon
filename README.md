@@ -1,8 +1,6 @@
 ![Copy of MDA II Final Presentation (2)](https://www.eoportal.org/ftp/satellite-missions/d/DSCOVR_081221/DSCOVR_Auto23.jpeg)
 
 
-
-
 &nbsp;
 
 <!-- About the Project -->
@@ -12,11 +10,9 @@ The Deep Space Climate Observatory (DSCOVR), can measure the strength and speed 
 
 DSCOVR orbits about a million miles from Earth in a unique location called Lagrange point 1, which basically allows it to hover between the Sun and our planet. From that vantage point, DSCOVR measures the plasma that may cause geomagnetic storms hours before it reaches us– ideally providing an early warning of what’s coming our way. The time that it takes for that plasma to reach Earth and trigger a geomagnetic storm might be anywhere from about 15 minutes to a few hours. 
 
-DSCOVR uses 2 main space weather instruments 
-
-    Magnetometer: Measures solar wind magnetic field vector. Given dataset has 3 features: x, y and z.
-
-    Faraday Cup: Provides real-time measurement of solar wind proton density, speed, velocity, temperature, etc... NASA and NOAA (SWPC and OSPO) are actively monitoring Faraday Cup behavior in various solar wind conditions, and developing or updating flight software solutions to optimize the instrument behavior. The most recent modification was performed in August 2020, and additional work is ongoing. Given dataset has 50 features.
+DSCOVR uses 2 main space weather instruments:
+- Magnetometer: Measures solar wind magnetic field vector. Given dataset has 3 features: x, y and z.
+- Faraday Cup: Provides real-time measurement of solar wind proton density, speed, velocity, temperature, etc... NASA and NOAA (SWPC and OSPO) are actively monitoring Faraday Cup behavior in various solar wind conditions, and developing or updating flight software solutions to optimize the instrument behavior. The most recent modification was performed in August 2020, and additional work is ongoing. Given dataset has 50 features.
 
 ![MDA II Final Presentation](https://www.nesdis.noaa.gov/s3/migrated/point_of_lagrange1_big_0.jpg)
 
