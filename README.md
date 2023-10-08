@@ -67,12 +67,20 @@ Here's a brief high-level overview of the tech stack the project uses:
 - [Tensorflow](https://www.tensorflow.org/?hl=es-419)
 - [Scikit_Learn](https://scikit-learn.org/)
 
-
 <!-- Features -->
-# :dart: Algorithms
+# 🧮 Model developed 🧮
 
-- By ingesting data from the [Spotify API](https://developer.spotify.com/documentation/web-api/) we combine and rank a selection of artists by analyzing top charts, frequency of appearance, followers and popularity and generate reccommendations relevant to tour managers, festival organizers to support their decision making.
+In our work, we have tried both regression and classification models. The model presented here is a binary classification model that constitutes the first step towards building more complex models. The target variable Kp has been classified into higher or equal to 5 (1) in order to indicate an incoming solar storm, and less than 5 (0).
 
+The data has been splitted into train and test. Train dataset consists of the first 80% of the time series data from 2016. Test dataset consists of the last 20% of the data till 2023.
+
+The predictor variables are all the variables coming from the DSCVR and the feature engineering performed in previous stage plus the historical Kp values. The target values are future Kp values. In this case, the sequence includes 240 previous datapoints for training, and 8 future points for forecasting.
+
+Among several architectures tried, an LSTM-based model is presented. It consists of 100 LSTM units, followed by a dense layer with dropout and a final dense layer with 8 neurons and sigmoid as activation function to predict the probabilities of the class in the next 8 time steps.
+
+Since the output of the model are the probabilities, a user-defined threshold is set based on the training data using ROC-AUC methodology.
+
+Finally, a chart comparing the predicted targets in the train set, and the predicted targets in the test set are shown. 
 
 # 🚧 Limitations 🚧
 
