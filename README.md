@@ -37,11 +37,9 @@ DSCOVR uses measurements of the solar wind density, temperature, speed, and magn
     Kp = 9: Extremely severe geomagnetic storm.
 
 
+# :rocket: CHALLENGE :rocket: 
 
-
-### CHALLENGE: 
-
-As a part of the NASA Space Apps Challenge, the project must predict the risk of geomagnetic storms on a 3 hour basis on Earth following the K-Index Scale
+As a part of the [NASA Space Apps Challenge](https://www.spaceappschallenge.org/2023/find-a-team/solar-storm-sentinels-of-pidro/), the project must predict the risk of geomagnetic storms on a 3 hour basis on Earth following the K-Index Scale. This project uses Machine and Deep Learning techniques to develop models that can improve the actual predictions given by NOAA (National Oceanic and Atmospheric Administration)
 
 
 <!-- TechStack -->
