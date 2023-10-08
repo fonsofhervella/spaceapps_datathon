@@ -51,7 +51,7 @@ Several statistical features covering the measurements that have taken place ins
 Many of the rows are NaN but they are registered as 0. They could be an anomaly, and they can also be indicator of space weather changes, so the approach of discarding the rows, or filling the NaN with other statistical measurements has been rejected by the group. Instead, we have transformed this null existance in a categorical feature, creating new features for each of our variables as ‘Proportion of NaN values’.
 The period where DSCOVR was shut down  (from 27 june 2019 to 2 march 2020) has been discarded.
 More information could be found in notebook: [2_Cleaning_and_engineering_DSCOVR.ipynb](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/2_Cleaning_and_engineering_DSCOVR.ipynb)
-
+- __Model Development:__ In our work, we have tried both regression and classification models. The model presented here is a binary classification model that constitutes the first step towards building more complex models. The target variable Kp has been classified into higher or equal to 5 (1) in order to indicate an incoming solar storm, and less than 5 (0). More information can be found in [notebook 3](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/3_FINAL_LSTM_NASA_SPACE_APP.ipynb)
 
 
 <!-- TechStack -->
@@ -69,8 +69,6 @@ Here's a brief high-level overview of the tech stack the project uses:
 
 <!-- Features -->
 # 🧮 Model developed 🧮
-
-In our work, we have tried both regression and classification models. The model presented here is a binary classification model that constitutes the first step towards building more complex models. The target variable Kp has been classified into higher or equal to 5 (1) in order to indicate an incoming solar storm, and less than 5 (0).
 
 The data has been splitted into train and test. Train dataset consists of the first 80% of the time series data from 2016. Test dataset consists of the last 20% of the data till 2023.
 
