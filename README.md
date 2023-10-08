@@ -5,7 +5,7 @@
 <!-- About the Project -->
 # :sunny: :satellite: :earth_americas: DSCOVER Oracle Project :sunny: :satellite: :earth_americas:
 
-The Deep Space Climate Observatory (DSCOVR), can __measure the strength and speed__ of the solar wind in space, which enables us to predict geomagnetic storms that can severely impact important systems like GPS and electrical power grids on Earth. It acts like a sensor buoy at sea that warns of an oncoming tsunami.
+The Deep Space Climate Observatory [(DSCOVR)](https://epic.gsfc.nasa.gov), can __measure the strength and speed__ of the solar wind in space, which enables us to predict geomagnetic storms that can severely impact important systems like GPS and electrical power grids on Earth. It acts like a sensor buoy at sea that warns of an oncoming tsunami.
 
 DSCOVR can warn forecasters __15 to 60 minutes__ before a storm of particles and magnetic field, known as a coronal mass ejection (or CME) reaches earth. However, it continues to operate past its expected lifetime and produces occasional faults that may themselves be indicators of space weather (the launch was in Feb. 11 2015, the arrival l at Sun–Earth L1 Lagrange point in Jun 8, 2015, and was expected to last 5 years). The instrument onboard DSCOVR that measures the solar wind's magnetic field continues to function very well, the instrument that measures the solar wind density, temperature, and speed has lost sensitivity and experiences faults and anomalies from time to time. 
 
@@ -43,11 +43,11 @@ As a part of the [NASA Space Apps Challenge](https://www.spaceappschallenge.org/
 
 
 <!-- TechStack -->
-# :space_invader: Python Libraries
+# 🐍📚  Python Libraries
 
 Here's a brief high-level overview of the tech stack the project uses:
 
-- Pandas: For Data Wrangling to merge data [PANDAS] https://pandas.pydata.org/
+- [Pandas](https://pandas.pydata.org/): For Data Wrangling to merge data 
 
 
 
