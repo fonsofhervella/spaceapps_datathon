@@ -43,10 +43,10 @@ As a part of the [NASA Space Apps Challenge](https://www.spaceappschallenge.org/
 
 # 💻 Work performed 💻
 
-- EDA: This exercise has been iterative with and executed simultaneously with the Data Cleaning and Feature Engineering ones, allowing to identify potential improvements that have been implemented in the later stages, and so on.
+- __EDA:__ This exercise has been iterative with and executed simultaneously with the Data Cleaning and Feature Engineering ones, allowing to identify potential improvements that have been implemented in the later stages, and so on.
 The EDA starts some statistics to later on, display several visualizations with the aim of detecting patterns and correlation between Kp and Ap and the vectors measures of PlasMAG and the different FC measurements.
 Found in notebook: [1_Initial_EDA_DSCOVR_data.ipynb](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/1_Initial_EDA_DSCOVR_data.ipynb)
-- Data Wrangling: Considering time constraints and the current intervals of Kp, team has decided to aggregate the data transforming it from minutes to 3 hour interval.
+- __Data Wrangling:__ Considering time constraints and the current intervals of Kp, team has decided to aggregate the data transforming it from minutes to 3 hour interval.
 Several statistical features covering the measurements that have taken place inside this 3-hours have been created.
 Many of the rows are NaN but they are registered as 0. They could be an anomaly, and they can also be indicator of space weather changes, so the approach of discarding the rows, or filling the NaN with other statistical measurements has been rejected by the group. Instead, we have transformed this null existance in a categorical feature, creating new features for each of our variables as ‘Proportion of NaN values’.
 The period where DSCOVR was shut down  (from 27 june 2019 to 2 march 2020) has been discarded.
@@ -55,14 +55,17 @@ More information could be found in notebook: [2_Cleaning_and_engineering_DSCOVR.
 
 
 <!-- TechStack -->
-# 🐍📚  Python Libraries
+# 🐍📚  Python Libraries 📚🐍
 
 Here's a brief high-level overview of the tech stack the project uses:
 
-- [Pandas](https://pandas.pydata.org/): For Data Wrangling to merge data 
-
-
-
+- [Pandas](https://pandas.pydata.org/)
+- Matplotlib
+- Numpy
+- Seaborn
+- Keras 
+- Tensorflow
+- Scikit Learn
 
 
 <!-- Features -->
@@ -71,10 +74,16 @@ Here's a brief high-level overview of the tech stack the project uses:
 - By ingesting data from the [Spotify API](https://developer.spotify.com/documentation/web-api/) we combine and rank a selection of artists by analyzing top charts, frequency of appearance, followers and popularity and generate reccommendations relevant to tour managers, festival organizers to support their decision making.
 
 
-# 🚧 Limitations
+# 🚧 Limitations 🚧
 
 Due to time constraints, really complex models, or accurate finetuning, has been difficult to reach. Also, the final aim is to improve also the front page and stablish and alert system for the stakeholders affected. 
 The team has directed its efforts into preparing the machine learning pipeline and working on the models, as the predictions made are considered more important for this challenge than the way in which they are displayed.
+
+# 📚 References 📚 
+Khurana, S., & Collado-Vega, Y. M. "Geomagnetic Storms: A Study of the Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors
+
+Lockwood, M. (2022). “Solar Wind—Magnetosphere Coupling Functions: Pitfalls, Limitations, and Applications”.
+
 
 
 # ✨ Contributors 
