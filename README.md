@@ -1,4 +1,4 @@
-![Group Logo](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/graphic_design/NASA_Part1.png) 
+![Group Logo](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/graphic_design/header_readme.jpeg) 
 
 &nbsp;
 
