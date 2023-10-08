@@ -87,6 +87,16 @@ Finally, a chart comparing the predicted targets in the train set, and the predi
 Due to time constraints, really complex models, or accurate finetuning, has been difficult to reach. Also, the final aim is to improve also the front page and stablish and alert system for the stakeholders affected. 
 The team has directed its efforts into preparing the machine learning pipeline and working on the models, as the predictions made are considered more important for this challenge than the way in which they are displayed.
 
+# 📅 Next Steps 📅
+The team has already created a plan that wasn’t implemented on this first iteration due to the time and computational capabilities constraints. The next steps to be performed are as follow:
+
+- Improve the feature engineering: Feature engineering is an iterative process. For us, it implies going back and forth to add/drop features and re-run models to check their impact on performance. Our plan is to add some data that can be also used by NASA (in instance, Canada Solar Flux data of the prior day: not as it is, but prepared as can be seen in notebook: ….). Also, a detailed correlation analysis, application of tree based models for detecting feature importance scores and dimensionality reduction techniques are some of the next steps planned at this point.
+- Improve the models: basically on 2 different lines: 
+- Try more complex models that have not been tried, mainly because they required more running time, so applying them could have been an one shot exercise.
+- Improve finetuning parameter of the used models.
+-	Improve the data-serving: Once improving our forecast for the next 3 days 3-hour intervals, the team would like to improve the visualization style of the page. Also, vinculate the forecast with a mailing list that contains the main stakeholders affected for strong space electromagnetic storms, creating a system of alerts, would be a good option to prevent and mitigate potential risks. Finally, allowing the users to access to the comparison between historical and predicted values (and even making our model open-source) could deal to future iterations that improve the final work (despite the actual deliverables are just a first sketch.
+
+
 # 📚 References 📚 
 - Khurana, S., & Collado-Vega, Y. M. "Geomagnetic Storms: A Study of the Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors
 
