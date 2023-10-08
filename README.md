@@ -37,9 +37,21 @@ DSCOVR uses measurements of the solar wind density, temperature, speed, and magn
     Kp = 9: Extremely severe geomagnetic storm.
 
 
-# :rocket: CHALLENGE :rocket: 
+# :rocket: Challenge :rocket: 
 
 As a part of the [NASA Space Apps Challenge](https://www.spaceappschallenge.org/2023/find-a-team/solar-storm-sentinels-of-pidro/), the project must predict the risk of geomagnetic storms on a 3 hour basis on Earth following the K-Index Scale. This project uses Machine and Deep Learning techniques to develop models that can improve the actual predictions given by NOAA (National Oceanic and Atmospheric Administration)
+
+# 💻 Work performed 💻
+
+- EDA: This exercise has been iterative with and executed simultaneously with the Data Cleaning and Feature Engineering ones, allowing to identify potential improvements that have been implemented in the later stages, and so on.
+The EDA starts some statistics to later on, display several visualizations with the aim of detecting patterns and correlation between Kp and Ap and the vectors measures of PlasMAG and the different FC measurements.
+Found in notebook: [1_Initial_EDA_DSCOVR_data.ipynb](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/1_Initial_EDA_DSCOVR_data.ipynb)
+- Data Wrangling: Considering time constraints and the current intervals of Kp, team has decided to aggregate the data transforming it from minutes to 3 hour interval.
+Several statistical features covering the measurements that have taken place inside this 3-hours have been created.
+Many of the rows are NaN but they are registered as 0. They could be an anomaly, and they can also be indicator of space weather changes, so the approach of discarding the rows, or filling the NaN with other statistical measurements has been rejected by the group. Instead, we have transformed this null existance in a categorical feature, creating new features for each of our variables as ‘Proportion of NaN values’.
+The period where DSCOVR was shut down  (from 27 june 2019 to 2 march 2020) has been discarded.
+More information could be found in notebook: [2_Cleaning_and_engineering_DSCOVR.ipynb](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/2_Cleaning_and_engineering_DSCOVR.ipynb)
+
 
 
 <!-- TechStack -->
