@@ -92,7 +92,10 @@ The team has directed its efforts into preparing the machine learning pipeline a
 
 - Lockwood, M. (2022). “Solar Wind—Magnetosphere Coupling Functions: Pitfalls, Limitations, and Applications”.
 
-
+# 🔗 Links to Data 🔗
+- [NASA Data](https://www.spaceappschallenge.org/develop-the-oracle-of-dscovr-experimental-data-repository/)
+- [Canadian Daily Solar Flux values](https://www.spaceweather.gc.ca/forecast-prevision/solar-solaire/solarflux/sx-5-flux-en.php)
+- [KPi Archive Measurements](https://www.gfz-potsdam.de/en/section/geomagnetism/data-products-services/geomagnetic-kp-index)
 
 # ✨ Contributors 
 
