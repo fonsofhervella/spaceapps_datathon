@@ -101,9 +101,9 @@ The team has directed its efforts into preparing the machine learning pipeline a
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/fonsofhervella"><img src="https://avatars.githubusercontent.com/u/108975841?v=4" width="100px;" alt="Alfonso Hervella"/><br /><sub><b>Alfonso Hervella</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=NinoMaj" title="Documentation">💻</a></td>
+    <td align="center"><a href="https://github.com/fonsofhervella"><img src="https://avatars.githubusercontent.com/u/108975841?v=4" width="100px;" alt="Alfonso Hervella"/><br /><sub><b>Alfonso Hervella</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=NinoMaj" title="Documentation">💻📊</a></td>
     <td align="center"><a href="https://github.com/jni"><img src="https://avatars.githubusercontent.com/u/67459756?v=4" width="100px;" alt="Javier Nieves"/><br /><sub><b>Javier Nieves</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=saurabhdaware" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Callisthenes"><img src="https://avatars.githubusercontent.com/u/91435423?v=4" width="100px;" alt="Pedro V. Esteban"/><br /><sub><b>Pedro V. Esteban</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Aaditya211935" title="Bug reports">💻</a></td> 
+    <td align="center"><a href="https://github.com/Callisthenes"><img src="https://avatars.githubusercontent.com/u/91435423?v=4" width="100px;" alt="Pedro V. Esteban"/><br /><sub><b>Pedro V. Esteban</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Aaditya211935" title="Bug reports">💻📝</a></td> 
   </tr>
 </table>
 
