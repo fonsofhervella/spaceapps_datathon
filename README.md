@@ -3,7 +3,7 @@
 &nbsp;
 
 <!-- About the Project -->
-# :sunny: :satellite: :earth_americas: DSCOVER Oracle Project :sunny: :satellite: :earth_americas:
+# :sunny: :satellite: :earth_americas: DSCOVR Oracle Project :sunny: :satellite: :earth_americas:
 
 The Deep Space Climate Observatory [(DSCOVR)](https://epic.gsfc.nasa.gov), can __measure the strength and speed__ of the solar wind in space, which enables us to predict geomagnetic storms that can severely impact important systems like GPS and electrical power grids on Earth. It acts like a sensor buoy at sea that warns of an oncoming tsunami.
 
