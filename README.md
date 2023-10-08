@@ -12,13 +12,16 @@ DSCOVR can warn forecasters __15 to 60 minutes__ before a storm of particles and
 ![Copy of MDA II Final Presentation (2)](https://www.eoportal.org/ftp/satellite-missions/d/DSCOVR_081221/DSCOVR_Auto23.jpeg)
 
 
-DSCOVR orbits about a million miles from Earth in a unique location called Lagrange point 1, which allows it to hover between the Sun :sunny: and our planet :earth_americas:. From that vantage point, DSCOVR measures the plasma that may cause geomagnetic storms hours before it reaches us– ideally providing an early warning of what’s coming our way. The time that it takes for that plasma to reach Earth and trigger a geomagnetic storm might be anywhere from about 15 minutes to a few hours. 
+DSCOVR orbits about a million miles from Earth in a unique location called __Lagrange point 1__ (L1), which allows it to hover between the Sun :sunny: and our planet :earth_americas:. From that vantage point, DSCOVR measures the plasma that may cause geomagnetic storms hours before it reaches us– ideally providing an early warning of what’s coming our way. The time that it takes for that plasma to reach Earth and trigger a geomagnetic storm might be anywhere from about 15 minutes to a few hours. 
+
+![MDA II Final Presentation](https://www.nesdis.noaa.gov/s3/migrated/point_of_lagrange1_big_0.jpg)
+
 
 DSCOVR uses 2 main space weather instruments:
 - Magnetometer: Measures solar wind magnetic field vector. Given dataset has 3 features: x, y and z.
 - Faraday Cup: Provides real-time measurement of solar wind proton density, speed, velocity, temperature, etc... NASA and NOAA (SWPC and OSPO) are actively monitoring Faraday Cup behavior in various solar wind conditions, and developing or updating flight software solutions to optimize the instrument behavior. The most recent modification was performed in August 2020, and additional work is ongoing. Given dataset has 50 features.
 
-![MDA II Final Presentation](https://www.nesdis.noaa.gov/s3/migrated/point_of_lagrange1_big_0.jpg)
+![MDA II Final Presentation](https://upload.wikimedia.org/wikipedia/commons/a/a4/Deep_Space_Climate_Observatory_spacecraft_diagram.jpg)
 
 DSCOVR uses measurements of the solar wind density, temperature, speed, and magnetic field to run computer simulations of the Earth's magnetic field and atmosphere. Based on those simulations, NOAA forecasts when a geomagnetic storm will occur and how strong it will be. The strength of the geomagnetic storm is measured on a scale called the Planetary K-index (Kp). 
 
