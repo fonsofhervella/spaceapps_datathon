@@ -60,12 +60,12 @@ More information could be found in notebook: [2_Cleaning_and_engineering_DSCOVR.
 Here's a brief high-level overview of the tech stack the project uses:
 
 - [Pandas](https://pandas.pydata.org/)
-- Matplotlib
-- Numpy
-- Seaborn
-- Keras 
-- Tensorflow
-- Scikit Learn
+- [Matplotlib](https://matplotlib.org/)
+- [Numpy](https://numpy.org/)
+- [Seaborn](https://seaborn.pydata.org/)
+- [Keras](https://keras.io/)
+- [Tensorflow](https://www.tensorflow.org/?hl=es-419)
+- [Scikit_Learn](https://scikit-learn.org/)
 
 
 <!-- Features -->
