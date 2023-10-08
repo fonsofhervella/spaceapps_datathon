@@ -23,7 +23,7 @@ DSCOVR uses 2 main space weather instruments:
 
 ![MDA II Final Presentation](https://upload.wikimedia.org/wikipedia/commons/a/a4/Deep_Space_Climate_Observatory_spacecraft_diagram.jpg)
 
-DSCOVR uses measurements of the solar wind density, temperature, speed, and magnetic field to run computer simulations of the Earth's magnetic field and atmosphere. Based on those simulations, NOAA forecasts when a geomagnetic storm will occur and how strong it will be. The strength of the geomagnetic storm is measured on a scale called the Planetary K-index (Kp). The K-index is a scale ranging from 0 to 9, with higher values indicating more severe geomagnetic disturbances. Here's what the different K-index values represent:
+DSCOVR uses measurements of the solar wind density, temperature, speed, and magnetic field to run computer simulations of the Earth's magnetic field and atmosphere. Based on those simulations, NOAA forecasts when a geomagnetic storm will occur and how strong it will be. The strength of the geomagnetic storm is measured on a scale called the Planetary K-index (Kp). The [K-index](https://doi.org/10.1029/2020SW002641) is a scale ranging from 0 to 9, with higher values indicating more severe geomagnetic disturbances. Here's what the different K-index values represent:
 
     Kp = 0: Very quiet geomagnetic conditions.
     Kp = 1: Quiet geomagnetic conditions with minimal disturbance.
@@ -88,6 +88,7 @@ Due to time constraints, really complex models, or accurate finetuning, has been
 The team has directed its efforts into preparing the machine learning pipeline and working on the models, as the predictions made are considered more important for this challenge than the way in which they are displayed.
 
 # 📅 Next Steps 📅
+
 The team has already created a plan that wasn’t implemented on this first iteration due to the time and computational capabilities constraints. The next steps to be performed are as follow:
 
 - Improve the feature engineering: Feature engineering is an iterative process. For us, it implies going back and forth to add/drop features and re-run models to check their impact on performance. Our plan is to add some data that can be also used by NASA (in instance, Canada Solar Flux data of the prior day: not as it is, but prepared as can be seen in notebook: ….). Also, a detailed correlation analysis, application of tree based models for detecting feature importance scores and dimensionality reduction techniques are some of the next steps planned at this point.
@@ -98,11 +99,13 @@ The team has already created a plan that wasn’t implemented on this first iter
 
 
 # 📚 References 📚 
-- Khurana, S., & Collado-Vega, Y. M. "Geomagnetic Storms: A Study of the Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors
 
+- Khurana, S., & Collado-Vega, Y. M. "Geomagnetic Storms: A Study of the Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors
+- Matzka, J., Stolle, C., Yamazaki, Y., Bronkalla, O. and Morschhauser, A., 2021. The geomagnetic Kp index and derived indices of geomagnetic activity. Space Weather, https://doi.org/10.1029/2020SW00264
 - Lockwood, M. (2022). “Solar Wind—Magnetosphere Coupling Functions: Pitfalls, Limitations, and Applications”.
 
 # 🔗 Links to Data 🔗
+
 - [NASA Data](https://www.spaceappschallenge.org/develop-the-oracle-of-dscovr-experimental-data-repository/)
 - [Canadian Daily Solar Flux values](https://www.spaceweather.gc.ca/forecast-prevision/solar-solaire/solarflux/sx-5-flux-en.php)
 - [KPi Archive Measurements](https://www.gfz-potsdam.de/en/section/geomagnetism/data-products-services/geomagnetic-kp-index)
