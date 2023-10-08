@@ -80,9 +80,9 @@ Due to time constraints, really complex models, or accurate finetuning, has been
 The team has directed its efforts into preparing the machine learning pipeline and working on the models, as the predictions made are considered more important for this challenge than the way in which they are displayed.
 
 # 📚 References 📚 
-Khurana, S., & Collado-Vega, Y. M. "Geomagnetic Storms: A Study of the Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors
+- Khurana, S., & Collado-Vega, Y. M. "Geomagnetic Storms: A Study of the Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors
 
-Lockwood, M. (2022). “Solar Wind—Magnetosphere Coupling Functions: Pitfalls, Limitations, and Applications”.
+- Lockwood, M. (2022). “Solar Wind—Magnetosphere Coupling Functions: Pitfalls, Limitations, and Applications”.
 
 
 
