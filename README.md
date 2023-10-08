@@ -5,12 +5,14 @@
 <!-- About the Project -->
 # :sunny: :satellite: :earth_americas: DSCOVER Oracle Project :sunny: :satellite: :earth_americas:
 
-The Deep Space Climate Observatory (DSCOVR), can measure the strength and speed of the solar wind in space, which enables us to predict geomagnetic storms that can severely impact important systems like GPS and electrical power grids on Earth. It acts like a sensor buoy at sea that warns of an oncoming tsunami—DSCOVR can warn forecasters 15 to 60 minutes before a storm of particles and magnetic field, known as a coronal mass ejection (or CME) reaches earth. However, it continues to operate past its expected lifetime and produces occasional faults that may themselves be indicators of space weather (the launch was in Feb. 11 2015, the arrival l at Sun–Earth L1 Lagrange point in Jun 8, 2015, and was expected to last 5 years)
+The Deep Space Climate Observatory (DSCOVR), can __measure the strength and speed__ of the solar wind in space, which enables us to predict geomagnetic storms that can severely impact important systems like GPS and electrical power grids on Earth. It acts like a sensor buoy at sea that warns of an oncoming tsunami.
+
+DSCOVR can warn forecasters __15 to 60 minutes__ before a storm of particles and magnetic field, known as a coronal mass ejection (or CME) reaches earth. However, it continues to operate past its expected lifetime and produces occasional faults that may themselves be indicators of space weather (the launch was in Feb. 11 2015, the arrival l at Sun–Earth L1 Lagrange point in Jun 8, 2015, and was expected to last 5 years)
 
 ![Copy of MDA II Final Presentation (2)](https://www.eoportal.org/ftp/satellite-missions/d/DSCOVR_081221/DSCOVR_Auto23.jpeg)
 
 
-DSCOVR orbits about a million miles from Earth in a unique location called Lagrange point 1, which basically allows it to hover between the Sun and our planet. From that vantage point, DSCOVR measures the plasma that may cause geomagnetic storms hours before it reaches us– ideally providing an early warning of what’s coming our way. The time that it takes for that plasma to reach Earth and trigger a geomagnetic storm might be anywhere from about 15 minutes to a few hours. 
+DSCOVR orbits about a million miles from Earth in a unique location called Lagrange point 1, which allows it to hover between the Sun :sunny: and our planet :earth_americas:. From that vantage point, DSCOVR measures the plasma that may cause geomagnetic storms hours before it reaches us– ideally providing an early warning of what’s coming our way. The time that it takes for that plasma to reach Earth and trigger a geomagnetic storm might be anywhere from about 15 minutes to a few hours. 
 
 DSCOVR uses 2 main space weather instruments:
 - Magnetometer: Measures solar wind magnetic field vector. Given dataset has 3 features: x, y and z.
