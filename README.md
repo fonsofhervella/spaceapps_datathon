@@ -7,7 +7,7 @@
 
 The Deep Space Climate Observatory (DSCOVR), can __measure the strength and speed__ of the solar wind in space, which enables us to predict geomagnetic storms that can severely impact important systems like GPS and electrical power grids on Earth. It acts like a sensor buoy at sea that warns of an oncoming tsunami.
 
-DSCOVR can warn forecasters __15 to 60 minutes__ before a storm of particles and magnetic field, known as a coronal mass ejection (or CME) reaches earth. However, it continues to operate past its expected lifetime and produces occasional faults that may themselves be indicators of space weather (the launch was in Feb. 11 2015, the arrival l at Sun–Earth L1 Lagrange point in Jun 8, 2015, and was expected to last 5 years)
+DSCOVR can warn forecasters __15 to 60 minutes__ before a storm of particles and magnetic field, known as a coronal mass ejection (or CME) reaches earth. However, it continues to operate past its expected lifetime and produces occasional faults that may themselves be indicators of space weather (the launch was in Feb. 11 2015, the arrival l at Sun–Earth L1 Lagrange point in Jun 8, 2015, and was expected to last 5 years). The instrument onboard DSCOVR that measures the solar wind's magnetic field continues to function very well, the instrument that measures the solar wind density, temperature, and speed has lost sensitivity and experiences faults and anomalies from time to time. 
 
 ![Copy of MDA II Final Presentation (2)](https://www.eoportal.org/ftp/satellite-missions/d/DSCOVR_081221/DSCOVR_Auto23.jpeg)
 
@@ -23,15 +23,7 @@ DSCOVR uses 2 main space weather instruments:
 
 ![MDA II Final Presentation](https://upload.wikimedia.org/wikipedia/commons/a/a4/Deep_Space_Climate_Observatory_spacecraft_diagram.jpg)
 
-DSCOVR uses measurements of the solar wind density, temperature, speed, and magnetic field to run computer simulations of the Earth's magnetic field and atmosphere. Based on those simulations, NOAA forecasts when a geomagnetic storm will occur and how strong it will be. The strength of the geomagnetic storm is measured on a scale called the Planetary K-index (Kp). 
-
-The instrument onboard DSCOVR that measures the solar wind's magnetic field continues to function very well, the instrument that measures the solar wind density, temperature, and speed has lost sensitivity and experiences faults and anomalies from time to time. 
-
-### CHALLENGE: 
-
-As a part of the NASA Space Apps Challenge, the project must predict the risk of geomagnetic storms on a 3 hour basis on Earth following the K-Index Scale
-
-The K-index is a scale ranging from 0 to 9, with higher values indicating more severe geomagnetic disturbances. Here's what the different K-index values represent:
+DSCOVR uses measurements of the solar wind density, temperature, speed, and magnetic field to run computer simulations of the Earth's magnetic field and atmosphere. Based on those simulations, NOAA forecasts when a geomagnetic storm will occur and how strong it will be. The strength of the geomagnetic storm is measured on a scale called the Planetary K-index (Kp). The K-index is a scale ranging from 0 to 9, with higher values indicating more severe geomagnetic disturbances. Here's what the different K-index values represent:
 
     Kp = 0: Very quiet geomagnetic conditions.
     Kp = 1: Quiet geomagnetic conditions with minimal disturbance.
@@ -43,6 +35,14 @@ The K-index is a scale ranging from 0 to 9, with higher values indicating more s
     Kp = 7: Severe geomagnetic storm.
     Kp = 8: Very severe geomagnetic storm.
     Kp = 9: Extremely severe geomagnetic storm.
+
+
+
+
+### CHALLENGE: 
+
+As a part of the NASA Space Apps Challenge, the project must predict the risk of geomagnetic storms on a 3 hour basis on Earth following the K-Index Scale
+
 
 <!-- TechStack -->
 # :space_invader: Python Libraries
