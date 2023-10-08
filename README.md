@@ -1,4 +1,4 @@
-![Group Logo](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/graphic_design/LogoSolarStorm.png) 
+![Group Logo](https://github.com/fonsofhervella/spaceapps_datathon/blob/main/graphic_design/NASA_Part1.png) 
 
 
 ![Copy of MDA II Final Presentation (2)](https://www.eoportal.org/ftp/satellite-missions/d/DSCOVR_081221/DSCOVR_Auto23.jpeg)
