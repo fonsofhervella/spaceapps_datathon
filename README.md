@@ -59,15 +59,11 @@ Here's a brief high-level overview of the tech stack the project uses:
 - By ingesting data from the [Spotify API](https://developer.spotify.com/documentation/web-api/) we combine and rank a selection of artists by analyzing top charts, frequency of appearance, followers and popularity and generate reccommendations relevant to tour managers, festival organizers to support their decision making.
 
 
-# :bookmark_tabs: Documentation
+# 🚧 Limitations
 
-You can find our documentation [here](https://github.com/Callisthenes/music_industry_intelligence/documentation) with the following tutorials
+Due to time constraints, really complex models, or accurate finetuning, has been difficult to reach. Also, the final aim is to improve also the front page and stablish and alert system for the stakeholders affected. 
+The team has directed its efforts into preparing the machine learning pipeline and working on the models, as the predictions made are considered more important for this challenge than the way in which they are displayed.
 
-- **Update Nifi:** Updates done in the course environment that allowed us to stream ingest from Twitter leveraging NIFI processor. 
-- **Spotify Config Ingestion:** Step by step guidance of Spotify ingestion leveraging Postman and NIFI.
-- **Tweepy tutorial:** Step by step guidance on how to ingest from twitter leveraging Tweepy and NIFI.
-- **Two objects working with VM environment:** Sharing a workaround to be able to work with 2 os.environment on the same Jupyter notebook which allowed us to work both with Graphframes and Mariadb.
-- **Connect Powerbi to VM environment:** Step by step guidance on how to connect the course environment to PowerBI and leverage the full potential of analytics
 
 # ✨ Contributors 
 
