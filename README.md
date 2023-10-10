@@ -116,7 +116,7 @@ The team has already created a plan that wasn’t implemented on this first iter
 <table>
   <tr>
     <td align="center"><a href="https://github.com/fonsofhervella"><img src="https://avatars.githubusercontent.com/u/108975841?v=4" width="100px;" alt="Alfonso Hervella"/><br /><sub><b>Alfonso Hervella (MSc Big Data and AI)</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=NinoMaj" title="Documentation">💻📊</a></td>
-    <td align="center"><a href="https://github.com/jni"><img src="https://avatars.githubusercontent.com/u/67459756?v=4" width="100px;" alt="Javier Nieves"/><br /><sub><b>Javier Nieves (MSc Big Data and AI)</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=saurabhdaware" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jnremachaGH"><img src="https://avatars.githubusercontent.com/u/67459756?v=4" width="100px;" alt="Javier Nieves"/><br /><sub><b>Javier Nieves (MSc Big Data and AI)</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=saurabhdaware" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Callisthenes"><img src="https://avatars.githubusercontent.com/u/91435423?v=4" width="100px;" alt="Pedro V. Esteban"/><br /><sub><b>callysthenes (MSc Big Data and AI)</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Aaditya211935" title="Bug reports">💻📝</a></td> 
   </tr>
 </table>
